@@ -1,0 +1,91 @@
+{
+	"Vue3 Template": {
+		"prefix": "v3t",
+		"body": [
+			"<script lang=ts>",
+			"    import { defineComponent } from 'vue'",
+			"    export default defineComponent({",
+			"        name: '$2',",
+			"        setup() {",
+			"            return {}",
+			"        }",
+			"})",
+			"</script>",
+			"<template>",
+			"    <div class=\"plt-container$3\"></div>",
+			"</template>",
+			"",
+			"<style lang='scss' scoped>",
+			"</style>"
+		]
+	},
+	"Vue3 Setup Script": {
+		"prefix": "vss",
+		"body": [
+			"<script lang=\"ts\" setup>",
+			"$2",
+			"</script>",
+			"<template>",
+			"    <div class='plt-container'>$1</div>",
+			"</template>",
+			"",
+			"<style lang='scss' scoped>",
+			"</style>"
+		]
+	},
+	"Plat Table": {
+		"prefix": "plt",
+		"body": [
+			"<script lang=ts>",
+			"    import { defineComponent } from 'vue'",
+			"    export default defineComponent({",
+			"        name: '$2',",
+			"        setup() {",
+			"            return {}",
+			"        }",
+			"})",
+			"</script>",
+			"<template>",
+			"    <div class=\"plt-container$3\">",
+			"        <div class=\"plt-action-bar\">",
+			"        </div>",
+			"    </div>",
+			"</template>",
+			"",
+			"<style lang='scss' scoped>",
+			"</style>"
+		]
+	},
+	"Hr note":{
+		"prefix": "hrn",
+		"body": "/********************${1:hr}**********************/"
+	},
+	"Vue Tsx": {
+		"prefix": "vtsx",
+		"body": [
+			"import { computed, defineComponent } from 'vue';",
+			"",
+			"export default defineComponent({",
+			"    name: '$1',",
+			"    inheritAttrs: ${2:false},",
+			"    props: {",
+			"        $3",
+			"    },",
+			"",
+			"    setup(props, { attrs, slots }) {",
+			"    const getAttrs = computed(() => ({",
+			"        ...attrs,",
+			"        ...props,",
+			"    }));",
+			"",
+			"    return { getAttrs, slots, close };",
+			"    },",
+			"",
+			"    render() {",
+			"        return {",
+			"        }",
+			"    }",
+			"});",
+		]
+	}
+}
