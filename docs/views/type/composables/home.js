@@ -3,15 +3,15 @@ const apiData = {
     header: 'API 和类型参考',
     list: [
         {
-            title: '初始化',
+            title: 'gltf模型加载',
             columns: 2,
             project: [
                 {
-                    title: '创建云渲染',
+                    title: 'gltf模型加载管理类',
                     projectColumn: [
                         {
-                            title: 'createCloud',
-                            href: '#',
+                            title: 'loadModel',
+                            href: '/views/type/components/model-manager/gltf-model-manager',
                         },
                     ],
                 },

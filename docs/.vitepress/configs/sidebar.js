@@ -1,5 +1,6 @@
 export default {
     '/views/guide/start': getGuideSidebar(),
+    '/views/type/components': getTypeSidebar(),
 };
 
 /** 指南 */
@@ -17,3 +18,13 @@ function getGuideSidebar() {
 }
 
 /** API和类型定义 */
+function getTypeSidebar() {
+    return [
+        {
+            text: 'gltf模型加载',
+            items:[
+                {text: 'gltf模型加载管理类', link:'/views/type/components/model-manager/gltf-model-manager'}
+            ],
+        }
+    ]
+}

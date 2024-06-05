@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls as OrbitControl } from 'three/examples/jsm/controls/OrbitControls.js';
 import { EventManager } from '../core/EventManager';
-import ModelManage from '../modelManage';
+import { ModelManager } from '../model-manager/model-manager';
 import { Sky } from './sky';
 /**
  * threejs场景搭建
@@ -24,7 +24,7 @@ export class IOTHREE {
     /** 控制 */
     public OrbitControls: OrbitControl;
     /** 模型管理 */
-    public modelManage: ModelManage;
+    public ModelManager: ModelManager;
     public params: any;
     public eventManager: EventManager;
     constructor(canvas) {
@@ -104,7 +104,7 @@ export class IOTHREE {
         // 事件管理
         this.eventManager = new EventManager(this, this.WebGLRenderer.domElement);
         // 模型管理
-        this.modelManage = new ModelManage(this);
+        this.ModelManager = new ModelManager(this);
     }
     /** 动画帧 */
     private render(): void {

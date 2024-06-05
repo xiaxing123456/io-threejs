@@ -1,5 +1,6 @@
 ---
 pageClass: api-data
+aside: false
 ---
 
 <IoGrid :data="apiData"/>

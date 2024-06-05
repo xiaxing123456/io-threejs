@@ -10,7 +10,7 @@
                     <h3>{{ v.title }}</h3>
                     <ul>
                         <li v-for="j in v.projectColumn">
-                            <a :href="v.href">{{ j.title }}</a>
+                            <a :href="j.href">{{ j.title }}</a>
                         </li>
                     </ul>
                 </div>
@@ -31,8 +31,6 @@ const props = defineProps({
 .io_grid {
     padding: 40px 0;
     &_list {
-        &_groups {
-        }
         &_group {
             break-inside: avoid;
             overflow: auto;
@@ -41,20 +39,6 @@ const props = defineProps({
             border-radius: 8px;
             padding: 28px 32px;
             transition: background-color 0.5s;
-            ul {
-                list-style: none;
-                padding-left: 0px;
-                a {
-                    font-size: 15px;
-                    font-weight: 500;
-                    line-height: 2;
-                }
-                a:hover {
-                    color: var(--vp-button-brand-active-border);
-                    transition: none;
-                    cursor: pointer;
-                }
-            }
         }
     }
 }

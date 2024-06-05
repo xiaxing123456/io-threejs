@@ -4,6 +4,10 @@
     --vp-home-hero-name-color: transparent;
     /* 主页标题文字的颜色  */
     --vp-home-hero-name-background: -webkit-linear-gradient(120deg, rgb(85, 184, 255), #bd34fe);
+    /*  文字颜色 */
+    --vp-global-text-color: #4B5563;
+    /**  文本高亮颜色 **/
+    --vp-global-text-light-color:#ff8400;
 
     /* botton按钮 */
     /* --vp-button-brand-border: #81634b; */
@@ -56,7 +60,19 @@ h3 {
     transition: color 0.5s;
 }
 ul {
-    text-decoration: none;
+    list-style: none !important;
+    padding-left: 0px;
 }
-
+a {
+    text-decoration: none !important;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2;
+    color:var(--vp-global-text-color) !important;
+}
+a:hover {
+    color:var(--vp-global-text-light-color) !important;
+    transition: none;
+    cursor: pointer;
+}
 
