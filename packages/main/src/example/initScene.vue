@@ -10,7 +10,7 @@ import { IOTHREE, TextureLoader } from '../../../threejs/src/index';
 const canvasDom = ref();
 const cloudInstance = ref<IOTHREE>();
 
-onMounted(() => {
+onMounted(async () => {
     cloudInstance.value = new IOTHREE(canvasDom.value);
 
     const textureLoader = new TextureLoader();
@@ -27,11 +27,11 @@ onMounted(() => {
         normalMap,
         shininess: 25,
     };
-    // cloudInstance.value.modelManage.LoadingManager.loadMaterialGLTF(
-    //     '/models/LeePerrySmith/LeePerrySmith.glb',
-    //     material
-    // );
-    // cloudInstance.value.modelManage.LoadingManager.loadFBX('/models/city/city.fbx');
+    await cloudInstance.value.modelManager.loadingManager.loadGLTF({
+        path: '/models/LeePerrySmith/LeePerrySmith.glb',
+        position: { x: 0, y: 0, z: 100 },
+    });
+    cloudInstance.value.modelManager.loadingManager.removeAllLoadModel();
 });
 </script>
 

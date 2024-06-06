@@ -8,6 +8,7 @@ export default defineConfig({
     cleanUrls: true,
     themeConfig: {
         outlineTitle: '导览',
+        outline: [2, 3],
         lastUpdatedText: '上次更新',
         logo: '/public/logo.png',
         siteTitle: 'io-threejs',

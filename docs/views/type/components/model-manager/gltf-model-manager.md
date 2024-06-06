@@ -1,53 +1,13 @@
-## Class: ModelManager
+# Class: ModelManager（加载模型管理）
 
-gltf 加载管理类
+加载模型管理
 
-#### Details
+## 参数
 
-加载卸载 gltf 模型
+-   [GLTFLoader](/views/type/components/model-manager/gltf-model/index) 用于载入 glTF 2.0 资源的加载器。
 
-#### Examples
+## 方法
 
-```ts
-const cloudInstance = new IOTHREE(canvasDom.value);
-cloudInstance.ModelManager;
-```
-
-## Methods
-
-### loadingManager.loadGLTF
-
-```ts
-cloudInstance.ModelManager.loadingManager.loadGLTF(): void;
-```
-
-#### Details
-
-传入 url 或本地文件绝对路径, 加载模型
-
-#### Examples
-
-调用示例：
-
-```ts
-const cloudInstance = new IOTHREE(canvasDom.value);
-const scale = new Vector3(1,1,1);
-const position = new Vector3(320,0,0);
-const rotation = new Vector3(0,0,0);
-const modelParams = {
-    path: '/models/LeePerrySmith/LeePerrySmith.glb',
-    scale,
-    position,
-    rotation,
-};
-cloudInstance.ModelManager.loadingManager.loadGLTF(
-    modelParams: modelLoaderParams {
-        path: string;
-        scale?: Vector3;
-        position?: Vector3;
-        rotation?: Vector3;
-    },
-    onLoadingFinished: (gltf: any) => void = () => {}, // 加载完成回调
-    LoadingCallbackFunction: (xhr: ProgressEvent) => void = () => {} // 加载中回调
-)
-```
+-   [unLoadModel](/views/type/components/model-manager/method/un-load-model) 删除一个或多个已经加载的模型。
+-   [removeAllModel](/views/type/components/model-manager/method/remove-all-model) 删除已经加载的全部模型。
+-   [getAllHistoricalModel](/views/type/components/model-manager/method/get-all-historical-model) 获取已经加载完成的模型。

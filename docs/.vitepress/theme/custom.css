@@ -21,6 +21,8 @@
     --vp-button-brand-hover-text: #000000;
     --vp-button-brand-hover-bg: #00FFEE;
 
+    /** 连接效果 **/
+    --vp-c-brand-1: #049ef4;
     --vp-button-brand-active-border: #ff7500;
 
     /* 主题基色 */
@@ -59,16 +61,12 @@ h3 {
     margin-bottom: 1em;
     transition: color 0.5s;
 }
-ul {
-    list-style: none !important;
-    padding-left: 0px;
-}
 a {
     text-decoration: none !important;
     font-size: 15px;
     font-weight: 500;
     line-height: 2;
-    color:var(--vp-global-text-color) !important;
+    color:var(--vp-global-text-color);
 }
 a:hover {
     color:var(--vp-global-text-light-color) !important;

@@ -21,10 +21,32 @@ function getGuideSidebar() {
 function getTypeSidebar() {
     return [
         {
-            text: 'gltf模型加载',
-            items:[
-                {text: 'gltf模型加载管理类', link:'/views/type/components/model-manager/gltf-model-manager'}
+            text: '模型管理',
+            link: '/views/type/components/model-manager/gltf-model-manager',
+            items: [
+                {
+                    text: 'gltf加载器',
+                    link: '/views/type/components/model-manager/gltf-model/',
+                    items: [
+                        {
+                            text: 'load',
+                            link: '/views/type/components/model-manager/gltf-model/load',
+                        },
+                    ],
+                },
+                {
+                    text: 'unLoadModel',
+                    link: '/views/type/components/model-manager/method/un-load-model',
+                },
+                {
+                    text: 'removeAllModel',
+                    link: '/views/type/components/model-manager/method/remove-all-model',
+                },
+                {
+                    text: 'getAllHistoricalModel',
+                    link: '/views/type/components/model-manager/method/get-all-historical-model',
+                },
             ],
-        }
-    ]
+        },
+    ];
 }

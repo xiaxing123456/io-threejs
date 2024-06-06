@@ -24,7 +24,7 @@ export class IOTHREE {
     /** 控制 */
     public OrbitControls: OrbitControl;
     /** 模型管理 */
-    public ModelManager: ModelManager;
+    public modelManager: ModelManager;
     public params: any;
     public eventManager: EventManager;
     constructor(canvas) {
@@ -40,6 +40,7 @@ export class IOTHREE {
 
         // 动画Receiver
         this.render.call(scope);
+
         // 自适应
         this.resize.call(scope);
         window.addEventListener('resize', this.resize);
@@ -104,13 +105,13 @@ export class IOTHREE {
         // 事件管理
         this.eventManager = new EventManager(this, this.WebGLRenderer.domElement);
         // 模型管理
-        this.ModelManager = new ModelManager(this);
+        this.modelManager = new ModelManager(this);
     }
     /** 动画帧 */
     private render(): void {
         this.OrbitControls.update();
         this.WebGLRenderer.render(this.Scene, this.Camera);
-        window.requestAnimationFrame(this.render);
+        window.requestAnimationFrame(this.render.bind(this));
     }
     /** 自适应 */
     private resize(): void {
@@ -130,7 +131,7 @@ export class IOTHREE {
     }
     private createParamsGUI(scope: IOTHREE): void {
         this.params = {
-            Pointer_Lock: true,
+            Pointer_Lock: false,
         };
     }
 }

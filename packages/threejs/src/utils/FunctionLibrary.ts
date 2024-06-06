@@ -23,14 +23,14 @@ export function setupMeshProperties(child: any): void {
 }
 
 /** 设置模型位置 */
-export function setupMeshTransform(mesh: any, params: modelLoaderParams): void {
-    if (params.hasOwnProperty('scale')) {
-        mesh.scale.set(params.scale.x, params.scale.y, params.scale.z);
+export function setupMeshTransform(mesh: any, Properties: modelLoaderParams): void {
+    if (Properties.hasOwnProperty('scale')) {
+        mesh.scale.set(Properties.scale.x, Properties.scale.y, Properties.scale.z);
     }
-    if (params.hasOwnProperty('position')) {
-        mesh.scale.set(params.position.x, params.position.y, params.position.z);
+    if (Properties.hasOwnProperty('position')) {
+        mesh.scale.set(Properties.position.x, Properties.position.y, Properties.position.z);
     }
-    if (params.hasOwnProperty('rotation')) {
-        mesh.scale.set(params.rotation.x, params.rotation.y, params.rotation.z);
+    if (Properties.hasOwnProperty('rotation')) {
+        mesh.scale.set(Properties.rotation.x, Properties.rotation.y, Properties.rotation.z);
     }
 }
