@@ -9,11 +9,12 @@ envFiles.forEach(file => {
         process.env[k] = envConfig[k];
     });
 });
+
 export default defineConfig({
     resolve: {
         alias: {
             '@': fileURLToPath(new URL('./src', import.meta.url)),
-        }
+        },
     },
     base: './',
     server: {
@@ -21,8 +22,8 @@ export default defineConfig({
         port: Number(process.env.VITE_PORT),
         open: process.env.VITE_OPEN_BROWSER === 'on',
         cors: true,
-        proxy: {}
+        proxy: {},
     },
-    build: {}
+    build: {},
 });
 //# sourceMappingURL=vite.config.js.map

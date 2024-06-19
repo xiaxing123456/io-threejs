@@ -1,3 +1,4 @@
 node_modules
 packages/threejs/build
 packages/threejs/examples
+/docs/.vitepress/dist/

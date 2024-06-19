@@ -7,7 +7,8 @@
     "scripts": {
         "dev:main": "pnpm -C packages/main dev",
         "dev:docs": "pnpm -C docs dev",
-        "build:threejs": "pnpm -C packages/threejs build"
+        "build:threejs": "pnpm -C packages/threejs build",
+        "build:docs": "pnpm -C docs build"
     },
     "keywords": [],
     "author": "",
