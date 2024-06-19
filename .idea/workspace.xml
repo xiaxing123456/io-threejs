@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d854e188-85a4-4c8d-909f-664e7b815389" name="变更" comment="feat: 新增doc分支">
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/io-threejs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/logger.code-snippets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/sni.code-snippets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.env.development" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/_metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/chunk-CUUO7HFL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/chunk-CUUO7HFL.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/chunk-V4FPVNJW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/chunk-V4FPVNJW.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___@vue_devtools-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___@vue_devtools-api.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___@vueuse_core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___@vueuse_core.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___@vueuse_integrations_useFocusTrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___@vueuse_integrations_useFocusTrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___mark__js_src_vanilla__js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___mark__js_src_vanilla__js.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___minisearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___minisearch.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vue.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/config.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/configs/nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/configs/sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/components/io-grid.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/max-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/guide/start/installation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/guide/start/introduction.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/type/components/model-manager/gltf-model-manager.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/type/components/model-manager/gltf-model/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/type/components/model-manager/gltf-model/load.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/type/components/model-manager/method/get-all-historical-model.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/type/components/model-manager/method/get-selection-nodes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/type/components/model-manager/method/remove-all-model.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/type/components/model-manager/method/restore-selection-nodes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/type/components/model-manager/method/set-node-highlight.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/type/components/model-manager/method/set-selection-nodes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/type/components/model-manager/method/take-control.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/type/components/model-manager/method/un-load-model.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/type/components/model-manager/obj-model/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/type/components/model-manager/obj-model/load.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/type/composables/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/type/home.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vite.config.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/.env.development" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/bg/nx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/bg/ny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/bg/nz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/bg/px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/bg/py.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/bg/pz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/diversespace-back/nx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/diversespace-back/ny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/diversespace-back/nz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/diversespace-back/px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/diversespace-back/py.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/diversespace-back/pz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/models/LeePerrySmith/Infinite-Level_02_Disp_NoSmoothUV-4096.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/models/LeePerrySmith/Infinite-Level_02_Tangent_SmoothUV.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/models/LeePerrySmith/LeePerrySmith.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/models/LeePerrySmith/LeePerrySmith_License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/models/LeePerrySmith/Map-COL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/models/LeePerrySmith/Map-SPEC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/src/declare/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/src/example/dom.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/src/example/initScene.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/.env.development" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/.env.production" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/plugins/dts.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/SwedishRoyalCastle/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/SwedishRoyalCastle/nx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/SwedishRoyalCastle/ny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/SwedishRoyalCastle/nz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/SwedishRoyalCastle/px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/SwedishRoyalCastle/py.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/SwedishRoyalCastle/pz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/SwedishRoyalCastle/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/0/nx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/0/ny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/0/nz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/0/px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/0/py.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/0/pz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/1/nx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/1/ny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/1/nz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/1/px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/1/py.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/1/pz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/2/nx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/2/ny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/2/nz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/2/px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/2/py.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/2/pz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/3/nx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/3/ny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/3/nz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/3/px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/3/py.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/public/img/environmentMaps/3/pz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/scripts/build-types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/core/event-manager.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/core/get-camera-manager.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/core/key-binding.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/enums/global.enum.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/event/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/event/watchEvnet.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/interfaces/IEventReceiver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/interfaces/IUpdatable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/interfaces/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/math/MathUtils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/math/Vector2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/math/box2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/model-manager/event/model-raycaster.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/model-manager/loader/gltf-loader.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/model-manager/loader/obj-loader.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/model-manager/model-manager.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/model-manager/model-manager.type.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/types/world/sky.type.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/utils/FunctionLibrary.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/utils/validate.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/world/IOTHREE.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/src/world/sky.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/threejs/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-workspace.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="2hRK1RPhAEk6aMajPPWC0mgi4Ti" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="所有位置" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="pnpm" />
+    <property name="settings.editor.selected.configurable" value="com.gitee.ui.GiteeSettingsConfigurable" />
+    <property name="ts.external.directory.path" value="D:\xiaxing\cli\io-threejs\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xiaxing\cli\io-threejs\docs\views\type\components" />
+      <recent name="D:\xiaxing\cli\io-threejs\docs\views\type" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="d854e188-85a4-4c8d-909f-664e7b815389" name="变更" comment="" />
+      <created>1717551235132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717551235132</updated>
+      <workItem from="1717551236454" duration="1872000" />
+      <workItem from="1717553142270" duration="1403000" />
+      <workItem from="1717554570290" duration="219000" />
+      <workItem from="1717554806557" duration="109000" />
+      <workItem from="1717554995907" duration="501000" />
+      <workItem from="1717558362801" duration="455000" />
+      <workItem from="1717558831151" duration="951000" />
+      <workItem from="1717559808320" duration="1261000" />
+      <workItem from="1717565949474" duration="4773000" />
+      <workItem from="1717576434508" duration="216000" />
+      <workItem from="1717667333510" duration="667000" />
+      <workItem from="1718786822657" duration="3395000" />
+      <workItem from="1718799463543" duration="171000" />
+      <workItem from="1718799645852" duration="649000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: 初始化部分代码">
+      <created>1717551549095</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717551549095</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: 初始化部分代码">
+      <created>1717558436594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717558436594</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: 提交背景图材料">
+      <created>1717558611708</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717558611708</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: 提交模型资源">
+      <created>1717558696440</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717558696440</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: 提交星空背景图片资源">
+      <created>1717558896987</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717558896988</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: mian初始化分支">
+      <created>1717559899758</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717559899758</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat:删除多余模型">
+      <created>1717565582712</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717565582712</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat:初始化main">
+      <created>1717566010953</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717566010953</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactor: 重构了下模型管理加载模型.">
+      <created>1717576566240</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717576566240</updated>
+    </task>
+    <task id="LOCAL-00010" summary="refactor: 重构了下模型管理加载模型.">
+      <created>1717667385859</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717667385859</updated>
+    </task>
+    <task id="LOCAL-00011" summary="refactor: 重构了下模型管理加载模型.">
+      <created>1718787022019</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718787022019</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="doc" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="a3363656-3919-403d-9fd5-179ea89cd95c">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="feat: 初始化部分代码" />
+    <MESSAGE value="feat: 提交背景图材料" />
+    <MESSAGE value="feat: 提交模型资源" />
+    <MESSAGE value="feat: 提交星空背景图片资源" />
+    <MESSAGE value="feat: mian初始化分支" />
+    <MESSAGE value="feat:删除多余模型" />
+    <MESSAGE value="feat:初始化main" />
+    <MESSAGE value="refactor: 重构了下模型管理加载模型." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: 重构了下模型管理加载模型." />
+  </component>
+</project>
