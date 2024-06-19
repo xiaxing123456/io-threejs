@@ -1,1 +1,0 @@
-export { watchEvent } from './watchEvnet';

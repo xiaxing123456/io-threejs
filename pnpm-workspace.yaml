@@ -1,4 +1,0 @@
-packages:
-  - docs # 存放我们API文档
-  - "packages/**" # 存放我们threejs——API
-
