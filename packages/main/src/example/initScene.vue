@@ -7,6 +7,7 @@
 // import { IOTHREE, TextureLoader } from '@threejs-platform/threejs';
 import { onMounted, ref } from 'vue';
 import { IOTHREE, TextureLoader } from '../../../threejs/src/index';
+
 const canvasDom = ref();
 const cloudInstance = ref<IOTHREE>();
 
@@ -27,11 +28,9 @@ onMounted(async () => {
         normalMap,
         shininess: 25,
     };
-    await cloudInstance.value.modelManager.loadingManager.loadGLTF({
-        path: '/models/LeePerrySmith/LeePerrySmith.glb',
-        position: { x: 0, y: 0, z: 100 },
+    await cloudInstance.value.modelManager.OBJLoader.load({
+        path: '/models/city/city.obj',
     });
-    cloudInstance.value.modelManager.loadingManager.removeAllLoadModel();
 });
 </script>
 

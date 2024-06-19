@@ -10,7 +10,7 @@ const apiData = {
                     title: 'gltf模型加载管理类',
                     projectColumn: [
                         {
-                            title: 'loadModel',
+                            title: 'ModelManager',
                             href: '/views/type/components/model-manager/gltf-model-manager',
                         },
                     ],

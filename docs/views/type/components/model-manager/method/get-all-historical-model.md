@@ -8,11 +8,11 @@
 
 ## 返回
 
-`void`
+`Promise<THREE.Object3D[]>`
 
 ## 列子
 
 ```ts
 // 删除模型
-cloudInstance.ModelManager.GLTFLoader.getAllHistoricalModel();
+cloudInstance.ModelManager.getAllHistoricalModel();
 ```

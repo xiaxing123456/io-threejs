@@ -25,26 +25,55 @@ function getTypeSidebar() {
             link: '/views/type/components/model-manager/gltf-model-manager',
             items: [
                 {
-                    text: 'gltf加载器',
-                    link: '/views/type/components/model-manager/gltf-model/',
+                    text: '加载器',
                     items: [
                         {
-                            text: 'load',
-                            link: '/views/type/components/model-manager/gltf-model/load',
+                            text: 'gltf加载器',
+                            link: '/views/type/components/model-manager/gltf-model/',
+                        },
+                        {
+                            text: 'obj加载器',
+                            link: '/views/type/components/model-manager/obj-model/',
                         },
                     ],
                 },
+
                 {
-                    text: 'unLoadModel',
-                    link: '/views/type/components/model-manager/method/un-load-model',
-                },
-                {
-                    text: 'removeAllModel',
-                    link: '/views/type/components/model-manager/method/remove-all-model',
-                },
-                {
-                    text: 'getAllHistoricalModel',
-                    link: '/views/type/components/model-manager/method/get-all-historical-model',
+                    text: '方法',
+                    items: [
+                        {
+                            text: 'takeControl',
+                            link: '/views/type/components/model-manager/method/take-control',
+                        },
+                        {
+                            text: 'unLoadModel',
+                            link: '/views/type/components/model-manager/method/un-load-model',
+                        },
+                        {
+                            text: 'removeAllModel',
+                            link: '/views/type/components/model-manager/method/remove-all-model',
+                        },
+                        {
+                            text: 'getAllHistoricalModel',
+                            link: '/views/type/components/model-manager/method/get-all-historical-model',
+                        },
+                        {
+                            text: 'setSelectionNodes',
+                            link: '/views/type/components/model-manager/method/set-selection-nodes',
+                        },
+                        {
+                            text: 'getSelectionNodes',
+                            link: '/views/type/components/model-manager/method/get-selection-nodes',
+                        },
+                        {
+                            text: 'restoreSelectionNodes',
+                            link: '/views/type/components/model-manager/method/restore-selection-nodes',
+                        },
+                        {
+                            text: 'setNodeHighlight',
+                            link: '/views/type/components/model-manager/method/set-node-highlight',
+                        },
+                    ],
                 },
             ],
         },

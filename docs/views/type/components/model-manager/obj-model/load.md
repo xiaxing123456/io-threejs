@@ -11,7 +11,7 @@
     - `position` (可选): 一个 Vector3 对象，表示加载的模型的位置。
     - `rotation` (可选): 一个 Vector3 对象，表示加载的模型的旋转。
 
-2. `onProgress` (可选): 回调函数，该函数有一个参数 `xhr`，类型为 `ProgressEvent`，用于在加载过程中提供进度信息。如果没有提供该回调函数，则默认为一个空函数。
+2. `onProgress`(可选): 回调函数，该函数有一个参数 `xhr`，类型为 `ProgressEvent`，用于在加载过程中提供进度信息。如果没有提供该回调函数，则默认为一个空函数。
 
 ## 返回
 
@@ -30,7 +30,7 @@ const Properties = {
     position,
     rotation,
 };
-cloudInstance.ModelManager.GLTFLoader.load(
+cloudInstance.ModelManager.OBJLoader.load(
     Properties:  {
         path: string;
         scale?: Vector3;

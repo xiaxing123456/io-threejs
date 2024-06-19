@@ -1,17 +1,17 @@
 import * as THREE from 'three';
-import { GLTFLoader as GLTFLoaders } from 'three/examples/jsm/loaders/GLTFLoader';
-import * as Utils from '../utils/FunctionLibrary';
-import { IOTHREE } from '../world/IOTHREE';
-import type { modelLoaderParams } from './model-manager.type';
+import { OBJLoader as OBJLoaders } from 'three/examples/jsm/loaders/OBJLoader';
+import * as Utils from '../../utils/FunctionLibrary';
+import { IOTHREE } from '../../world/IOTHREE';
+import type { modelLoaderParams } from '../model-manager.type';
 
 /** gltf加载器 */
-export class GLTFLoader {
+export class OBJLoader {
     private ioThree: IOTHREE;
-    private gltfLoader: GLTFLoaders;
+    private objLoader: OBJLoaders;
     private loadModelGroup: THREE.Group;
     constructor(ioThree: IOTHREE, loadModelGroup) {
         this.ioThree = ioThree;
-        this.gltfLoader = new GLTFLoaders();
+        this.objLoader = new OBJLoaders();
         this.loadModelGroup = loadModelGroup;
     }
 
@@ -25,10 +25,10 @@ export class GLTFLoader {
         onProgress: (xhr: ProgressEvent) => void = () => {}
     ): Promise<THREE.Object3D> {
         return new Promise((resolve, reject) => {
-            this.gltfLoader.load(
+            this.objLoader.load(
                 Properties.path,
                 gltf => {
-                    const mesh = gltf.scene;
+                    const mesh = gltf;
                     mesh.traverse(child => {
                         if (child.type === 'Mesh') {
                             Utils.setupMeshProperties(child);

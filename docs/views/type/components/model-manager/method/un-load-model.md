@@ -14,6 +14,6 @@
 
 ```ts
 // 删除模型
-cloudInstance.ModelManager.GLTFLoader.unLoadMoel(keyList: Object3D[])
+cloudInstance.ModelManager.unLoadMoel(keyList: Object3D[])
 
 ```

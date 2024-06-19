@@ -10,6 +10,7 @@ export class EventManager implements IUpdatable {
     public isLocked: boolean;
     public eventReceiver: IEventReceiver;
 
+    public boundOnDblclick: (evt: any) => void;
     public boundOnMouseDown: (evt: any) => void;
     public boundOnMouseMove: (evt: any) => void;
     public boundOnMouseUp: (evt: any) => void;
@@ -27,6 +28,7 @@ export class EventManager implements IUpdatable {
         this.isLocked = false;
 
         // 鼠标绑定
+        this.boundOnDblclick = evt => this.onDblclick(evt);
         this.boundOnMouseDown = evt => this.onMouseDown(evt);
         this.boundOnMouseMove = evt => this.onMouseMove(evt);
         this.boundOnMouseUp = evt => this.onMouseUp(evt);
@@ -43,12 +45,30 @@ export class EventManager implements IUpdatable {
         // 事件监听器
         // 鼠标
         this.domElement.addEventListener('mousedown', this.boundOnMouseDown, false);
+        this.domElement.addEventListener('dblclick', this.boundOnDblclick, false);
         document.addEventListener('wheel', this.boundOnMouseWheelMove, false);
         document.addEventListener('pointerlockchange', this.boundOnPointerlockChange, false);
 
         // keys 按键
         document.addEventListener('keydown', this.boundOnKeyDown, false);
         document.addEventListener('keyup', this.boundOnKeyUp, false);
+
+        // 寄存更新
+        ioThree.registerUpdatable(this);
+    }
+    /** 鼠标双击事件 */
+    public onDblclick(event: MouseEvent): void {
+        // 是否锁定
+        if (this.pointerLock) {
+            this.domElement.requestPointerLock();
+        } else {
+            // 打开鼠标移动和鼠标抬起监听
+            this.domElement.addEventListener('mousemove', this.boundOnMouseMove, false);
+            this.domElement.addEventListener('mouseup', this.boundOnMouseUp, false);
+        }
+        if (this.eventReceiver !== undefined) {
+            this.eventReceiver.handleOnDblClick(event);
+        }
     }
     /** 鼠标按下 */
     public onMouseDown(event: MouseEvent): void {
@@ -125,13 +145,22 @@ export class EventManager implements IUpdatable {
     /** 设置事件监听器 */
     public setEventReceiver(receiver: IEventReceiver): void {
         this.eventReceiver = receiver;
-        this.eventReceiver.inputReceiverInit();
+        this.eventReceiver.eventReceiverInit();
     }
     /** 设置指针锁定 */
     public setPointerLock(enabled: boolean): void {
         this.pointerLock = enabled;
     }
+    /** 更新 */
     update(timestep: number, unscaledTimeStep: number): void {
-        throw new Error('Method not implemented.');
+        if (
+            this.eventReceiver === undefined &&
+            this.ioThree !== undefined &&
+            this.ioThree.getCameraManager !== undefined
+        ) {
+            this.setEventReceiver(this.ioThree.getCameraManager);
+        }
+
+        this.eventReceiver?.eventReceiverUpdate(unscaledTimeStep);
     }
 }

@@ -8,11 +8,11 @@
 
 ## 返回
 
-`Promise<Object3D>`
+`void`
 
 ## 列子
 
 ```ts
-// 删除模型
-cloudInstance.ModelManager.GLTFLoader.removeAllModel();
+// 删除全部模型
+cloudInstance.ModelManager.removeAllModel();
 ```

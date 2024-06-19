@@ -1,10 +1,14 @@
-# GLTFLoader
+# OBJLoader
 
-GLTF 加载器
+OBJ 加载器
+
+## 参数
+
+无
 
 ## 方法
 
--   [load](/views/type/components/model-manager/gltf-model/load) (Properties: Object, onProgress: Function): `Promise<Object3D>` 加载 GLTF 类型的模型。
+-   [load](/views/type/components/model-manager/obj-model/)(Properties: Object, onProgress: Function): `Promise<Object3D>` 加载 obj 类型的模型。
 
     1. `Properties` 对象，其中包含以下属性:
 
@@ -13,7 +17,7 @@ GLTF 加载器
         - `position` (可选): 一个 Vector3 对象，表示加载的模型的位置。
         - `rotation` (可选): 一个 Vector3 对象，表示加载的模型的旋转。
 
-    2. `onProgress` (可选): 回调函数，该函数有一个参数 `xhr`，类型为 `ProgressEvent`，用于在加载过程中提供进度信息。如果没有提供该回调函数，则默认为一个空函数。
+    2. `onProgress`(可选): 回调函数，该函数有一个参数 `xhr`，类型为 `ProgressEvent`，用于在加载过程中提供进度信息。如果没有提供该回调函数，则默认为一个空函数。
 
 ## 列子
 
@@ -28,7 +32,7 @@ const Properties = {
     position,
     rotation,
 };
-cloudInstance.ModelManager.GLTFLoader.load(
+cloudInstance.ModelManager.OBJLoader.load(
     Properties:  {
         path: string;
         scale?: Vector3;
